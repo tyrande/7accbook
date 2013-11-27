@@ -89,6 +89,40 @@ a:after {
 }
 
 
+.navbar-default {
+  background-color: #f5fbff;
+  border-color: #e7e7e7;
+}
+.navbar-default .navbar-brand {
+  color: #298dcc;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #116091;
+  background-color: transparent;
+}
+.navbar-default .navbar-text {
+  color: #298dcc;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #298dcc;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #116091;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #116091;
+  background-color: #e0f3ff;
+}
+
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
@@ -96,7 +130,7 @@ a:after {
 #headerwrap {
 /*  background-color: #34495e;*/
 	
-	background: url(../img/header-bg.jpg) no-repeat center top;
+	background: #00234b url(../img/head-bg.gif) no-repeat center top;
 	margin-top: -10px;
 	padding-top: 60px;
 	text-align:center;
@@ -181,7 +215,7 @@ a:after {
 }
 
 #footerwrap {
-	background-color: #051d2b;
+	background-color: #00234b;
 	color: white;
 	padding-top: 40px;
 	padding-bottom: 60px;
@@ -212,7 +246,7 @@ a:after {
 /* Copyright Wrap */
 
 #c {
-	background: #020c12;
+	background: #001730;
 	padding-top: 15px;
 	text-align: right;
 }
